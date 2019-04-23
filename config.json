@@ -1,0 +1,12 @@
+[
+    {
+        "branch": "test",
+        "trigger": "merge_request",
+        "action": "merged",
+        "cwd": "your/project/directory",
+        "sshKeyPath": "ssh/key/path",
+        "preBuildCommand": "echo prepareBuild",
+        "buildCommand": "echo build",
+        "deployCommand": "echo delpoy"
+    }
+]
